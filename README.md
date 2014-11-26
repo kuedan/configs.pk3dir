@@ -38,14 +38,14 @@ Modify the copy to suit your needs
 Unrecommended Multiple Server Setup
 ===================================
 
-For running multiple servers in the same data directory
-NOTE: If you are using separate data directories per server, please read the Multiple Servers section instead
+For running multiple servers in the same data directory  
+NOTE: If you are using separate data directories per server, please read the Multiple Servers section instead  
 
 Follow the regular steps to get the configs.pk3dir folder into your data folder  
 Copy both server_multi.cfg and server_mod.cfg into your data folder  
 Rename server_mod.cfg to something like server_otherserver_mod.cfg then move it to data/configs  
 Rename server_multi.cfg to something like server_otherserver.cfg  
-Edit server_otherserver.cfg and change _server_multi to otherserver (using the actual server name here and in config names, of course)   
+Edit server_otherserver.cfg and change _server_multi to otherserver (using the actual server name here and in config names, of course)  
 Make sure your server points to server_otherserver.cfg by using +serverconfig server_otherserver.cfg when you start the server binary  
 
 
