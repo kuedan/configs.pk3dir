@@ -15,7 +15,8 @@ Git - http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 Usage
 =====
 
-Run the following command from your server's data folder (~/.xonotic/data on Linux/Mac, C:\Users\username\Saved Games\xonotic\data on Windows): git clone https://github.com/MarioSMB/configs.pk3dir  
+Run the following command from your server's data folder (~/.xonotic/data on Linux/Mac, C:\Users\username\Saved Games\xonotic\data on Windows):  
+		git clone https://github.com/MarioSMB/configs.pk3dir  
 Copy the server_mod.cfg file into xonotic/data/configs on your server (exact directory can be found in previous step)  
 Modify the new copy of server_mod.cfg to suit your needs  
 Run server to make sure everything is working   
